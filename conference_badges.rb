@@ -12,6 +12,6 @@ def assign_rooms(array)
 end
 
 def printer(array)
-  puts batch_badge_creator.each {|name| name}
-  puts assign_rooms.each {|room| room}
+  batch_badge_creator(array).each {|name| puts name}
+  assign_rooms(array).each {|room| puts room}
 end
