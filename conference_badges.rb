@@ -9,5 +9,6 @@ end
 
 def assign_rooms(array)
   room_assignments = []
-  array.each_with_index {|name,room| "Hello, #{name}! You'll be assigned to room #{room+1}!"
+  array.each_with_index {|name,room| "Hello, #{name}! You'll be assigned to room #{room+1}!"}
+  room_assignments
 end
