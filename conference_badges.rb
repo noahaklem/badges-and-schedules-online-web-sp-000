@@ -9,5 +9,4 @@ end
 
 def assign_rooms(array)
   array.collect {|name| "Hello, #{name}! You'll be assigned to room #{array.each_index[name]}!"
-  
 end
